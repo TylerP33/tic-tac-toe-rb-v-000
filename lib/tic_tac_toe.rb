@@ -122,9 +122,7 @@ end
 
 def play(board)
   turn = turn(board)
-
-
-end
+  over? = over?(board)
 
 
 
