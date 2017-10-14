@@ -118,11 +118,11 @@ end
 
 end
 
-def play(board)
+def play(board) 
   turn(board)
 
 
-if draw(board?)
+if draw?(board)
   print "Cat's game!"
 end
 
