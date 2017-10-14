@@ -122,7 +122,7 @@ def play(board)
   turn(board)
 
 
-if draw?(board)
+if over?(board)
   print "Cat's game!"
 end
 
