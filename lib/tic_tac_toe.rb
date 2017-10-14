@@ -121,6 +121,5 @@ end
 end
 
 def play(board)
-  turn(board)
-  over(board)
+  turn = turn(board)
 end
