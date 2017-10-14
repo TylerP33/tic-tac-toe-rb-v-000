@@ -121,12 +121,11 @@ end
 end
 
 def play(board)
-  turn = turn(board)
+  if turn = turn(board)
+  else  
+    over?(board)
+end 
 
-  if draw?(board) || won?(board)
-    return true
-  else
-    return false
-  end 
+
 
 end
