@@ -119,6 +119,7 @@ end
 end
 
 def play(board)
-  turn(board)
+  turn.each do |i|
+  end 
 
 end
