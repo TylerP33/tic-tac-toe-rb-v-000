@@ -126,6 +126,6 @@ until over?(board)
    if won?(board)
     puts "Congratulations #{winner(board)}!"
    else
-    puts "Cats Game!"
+    puts "Cat's Game!"
   end
 end
