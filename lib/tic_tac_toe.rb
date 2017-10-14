@@ -121,5 +121,5 @@ end
 def play(board, turn, over)
   turn = turn(board)
   over = over?(board)
-  
+
 end
