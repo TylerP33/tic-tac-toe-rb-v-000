@@ -119,8 +119,12 @@ end
 end
 
 def play(board)
-  turn.each do |over|
-    over?(board)
-  end
+  turn(board)
+  over?(board)
+  turn(board)
+  over?(board)
+  won?(board)
+  puts "Congratulations X!" || puts "Congratulations O!"
+    
 
 end
