@@ -29,12 +29,11 @@ def turn(board)
   index = input_to_index(user_input)
   current_player = current_player(board)
 
-
-
-  if valid_move?(board, index)
+if valid_move?(board, index)
     current_player(board)
     move(board, index, current_player)
     display_board(board)
+    over?(board)
   else
     turn(board)
   end
@@ -122,14 +121,4 @@ end
 
 def play(board)
   turn(board)
-  winner = winner(board)
-  over = over?(board)
-
-  if turn(board) = winner(board)
-    return over?(board)
-  end
-
-
-
-
-end
+end 
