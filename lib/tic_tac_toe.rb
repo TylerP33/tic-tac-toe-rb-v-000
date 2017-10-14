@@ -119,6 +119,7 @@ end
 end
 
 def play(board)
+  over?(board)
   turn(board)
 
 end
