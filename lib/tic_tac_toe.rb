@@ -120,7 +120,7 @@ end
 
 def play(board)
   turn.each do |over|
-    puts over?(board)
-  end 
+    over?(board)
+  end
 
 end
