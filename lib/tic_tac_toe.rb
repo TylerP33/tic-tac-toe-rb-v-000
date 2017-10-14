@@ -120,6 +120,6 @@ end
 
 def play(board)
   turn.each do |i|
-  end 
+  end
 
 end
