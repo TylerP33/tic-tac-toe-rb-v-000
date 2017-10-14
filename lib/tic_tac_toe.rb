@@ -33,7 +33,6 @@ if valid_move?(board, index)
     current_player(board)
     move(board, index, current_player)
     display_board(board)
-    over?(board)
   else
     turn(board)
   end
