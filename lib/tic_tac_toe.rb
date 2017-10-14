@@ -119,6 +119,5 @@ end
 end
 
 def play(board)
-turn(board, over?, won?)
 
 end
