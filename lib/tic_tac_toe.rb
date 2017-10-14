@@ -125,7 +125,7 @@ turn(board)
 
 if over?(board)
   return true
-else 
+else
   turn(board)
   end
 
