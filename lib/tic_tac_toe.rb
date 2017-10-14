@@ -127,5 +127,5 @@ def play(board)
     return true
   else
     return false
-  
+
 end
