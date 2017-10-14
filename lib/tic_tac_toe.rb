@@ -121,12 +121,6 @@ end
 end
 
 def play(board)
-turn(board)
-
-if turn(board
-else
-  over?(board)
-end
 
 
 
