@@ -123,7 +123,7 @@ end
 def play(board)
   turn = turn(board)
   over = over(board)
-  
+
 end
 
 
