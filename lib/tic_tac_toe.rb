@@ -128,7 +128,7 @@ def play(board)
 
 if draw(board?)
   print "Cat's game!"
-end 
+end
 
 
 end
