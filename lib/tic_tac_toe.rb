@@ -124,6 +124,10 @@ def play(board)
   turn = turn(board)
   over = over?(board)
 
+  if turn(board)
+  elsif over?(board)
+  elsif turn(board)
+
 
 
 end
