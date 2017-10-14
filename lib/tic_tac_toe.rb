@@ -121,7 +121,5 @@ end
 
 def play(board)
   turn(board)
-  turn(board)
-  turn(board)
   over?(board)
 end
