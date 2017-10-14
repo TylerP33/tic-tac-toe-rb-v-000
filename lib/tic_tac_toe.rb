@@ -124,7 +124,7 @@ def play(board)
   turn(board)
   over?(board)
   won?(board)
-  puts "Congratulations X!"  
+  puts "Congratulations X!"
   puts "Congratulations O!"
 
 if draw(board?)
