@@ -122,6 +122,10 @@ end
 
 def play(board)
   turn(board)
+  winner = winner(board)
+  over? = over?(board)
+
+  if turn(board) == winner(board)
 
 
 
