@@ -12,8 +12,8 @@ def input_to_index(user_input)
 end
 
 
-def move(array, index, value)
-  array[index] = value
+def move(board, index, current_player)
+  board[index] = current_player
 end
 
 def valid_move?(board, index)
@@ -27,9 +27,13 @@ def turn(board)
   puts "Please enter 1-9:"
   user_input = gets.chomp
   index = input_to_index(user_input)
+  current_player = current_player(board)
+
+
 
   if valid_move?(board, index)
-    move(board, index)
+    current_player(board)
+    move(board, index, current_player)
     display_board(board)
   else
     turn(board)
